@@ -25,7 +25,8 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080001;
+        public static final int button1=0x7f080000;
     }
     public static final class layout {
         public static final int about_view=0x7f030000;
@@ -61,7 +62,7 @@ public final class R {
         public static final int reveal_view_controller=0x7f03001e;
         public static final int samport_vc=0x7f03001f;
         public static final int settings_view=0x7f030020;
-        public static final int show_payment_receipt_view_controller=0x7f030021;
+        public static final int show_payment_receipt_view=0x7f030021;
         public static final int side_menu_view=0x7f030022;
         public static final int table_view_controller=0x7f030023;
     }
