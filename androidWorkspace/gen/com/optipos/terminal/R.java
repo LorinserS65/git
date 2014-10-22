@@ -25,8 +25,15 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
-        public static final int button1=0x7f080000;
+        public static final int action_settings=0x7f080008;
+        public static final int buttonLogin=0x7f080002;
+        public static final int editTextPasswordField=0x7f080001;
+        public static final int imageView1=0x7f080005;
+        public static final int imageView2=0x7f080006;
+        public static final int tableLayout1=0x7f080000;
+        public static final int tableRow3=0x7f080003;
+        public static final int tableRow4=0x7f080004;
+        public static final int textViewCurrentApplicationVersion=0x7f080007;
     }
     public static final class layout {
         public static final int about_view=0x7f030000;
@@ -44,27 +51,26 @@ public final class R {
         public static final int gift_card_payment=0x7f03000c;
         public static final int log_viewer=0x7f03000d;
         public static final int login_view=0x7f03000e;
-        public static final int main_activity=0x7f03000f;
-        public static final int mobile_pay=0x7f030010;
-        public static final int navigation_controller=0x7f030011;
-        public static final int other_peyment_methods=0x7f030012;
-        public static final int payment_view=0x7f030013;
-        public static final int printer_popup_vc=0x7f030014;
-        public static final int product_detail_view=0x7f030015;
-        public static final int product_list_table_view=0x7f030016;
-        public static final int product_search_table=0x7f030017;
-        public static final int quick_product_table_vc=0x7f030018;
-        public static final int quick_product_tiles_vc=0x7f030019;
-        public static final int receipt_details_kvittering_scene=0x7f03001a;
-        public static final int receipts_table_vc=0x7f03001b;
-        public static final int registration_view=0x7f03001c;
-        public static final int return_ticket_vc=0x7f03001d;
-        public static final int reveal_view_controller=0x7f03001e;
-        public static final int samport_vc=0x7f03001f;
-        public static final int settings_view=0x7f030020;
-        public static final int show_payment_receipt_view=0x7f030021;
-        public static final int side_menu_view=0x7f030022;
-        public static final int table_view_controller=0x7f030023;
+        public static final int mobile_pay=0x7f03000f;
+        public static final int navigation_controller=0x7f030010;
+        public static final int other_peyment_methods=0x7f030011;
+        public static final int payment_view=0x7f030012;
+        public static final int printer_popup_vc=0x7f030013;
+        public static final int product_detail_view=0x7f030014;
+        public static final int product_list_table_view=0x7f030015;
+        public static final int product_search_table=0x7f030016;
+        public static final int quick_product_table_vc=0x7f030017;
+        public static final int quick_product_tiles_vc=0x7f030018;
+        public static final int receipt_details_kvittering_scene=0x7f030019;
+        public static final int receipts_table_vc=0x7f03001a;
+        public static final int registration_view=0x7f03001b;
+        public static final int return_ticket_vc=0x7f03001c;
+        public static final int reveal_view_controller=0x7f03001d;
+        public static final int samport_vc=0x7f03001e;
+        public static final int settings_view=0x7f03001f;
+        public static final int show_payment_receipt_view=0x7f030020;
+        public static final int side_menu_view=0x7f030021;
+        public static final int table_view_controller=0x7f030022;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -72,7 +78,15 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+        public static final int cashRegisterButtonByttemearke_tradeMark=0x7f050008;
+        public static final int cashRegisterButtonGaveKort_giftCard=0x7f05000a;
+        public static final int cashRegisterButtonSogVare_searchProduct=0x7f050006;
+        public static final int cashRegisterButtonTilBetaling_debit=0x7f050009;
+        public static final int cashRegisterButtonVaelgKunde_selectCustomer=0x7f050007;
+        public static final int cashRegisterButtonlogin=0x7f050005;
+        public static final int current_application_version=0x7f050003;
         public static final int hello_world=0x7f050001;
+        public static final int pincode=0x7f050004;
     }
     public static final class style {
         /** 

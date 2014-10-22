@@ -1,15 +1,30 @@
 package com.optipos.terminal;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
-public class LoginView extends Activity{
+public class LoginView extends Activity {
+
+	EditText editTextPasswordField;
+	Button logingButton;
+	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login_view);
+		logingButton = (Button) findViewById(R.id.buttonLogin);
+		editTextPasswordField = (EditText)findViewById(R.id.editTextPasswordField);
+		
+//		editTextPasswordField = (EditText) findViewById(R.id.editTextPasswordField);
+
+		
 
 	}
 
@@ -49,5 +64,13 @@ public class LoginView extends Activity{
 		// TODO Auto-generated method stub
 		super.onDestroy();
 	}
+	
+	public void checkPasswordAndLogin(View v) {
+		
+		String toastMessage = editTextPasswordField.getText().toString();
+		Intent intentCashRegister = new Intent (this,CashRegister.class);
+			 startActivity(intentCashRegister);
+		}
+		
+	}
 
-}

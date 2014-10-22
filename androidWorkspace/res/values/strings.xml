@@ -4,5 +4,16 @@
     <string name="app_name">Optipos</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name ="current_application_version">Version</string>
+   
+    <string name= "pincode">Pincode</string>
+    
+    
+    <string name = "cashRegisterButtonlogin">Login</string>
+    <string name ="cashRegisterButtonSogVare_searchProduct">Søg vare</string>
+   	<string name= "cashRegisterButtonVaelgKunde_selectCustomer">Vælg kunde</string>
+   	<string name= "cashRegisterButtonByttemearke_tradeMark">Byttemærke</string>
+   	<string name="cashRegisterButtonTilBetaling_debit">Til betaling</string>
+    <string name="cashRegisterButtonGaveKort_giftCard">Til </string>
 
 </resources>
